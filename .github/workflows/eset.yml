@@ -120,7 +120,7 @@ jobs:
         if: runner.os == 'Windows'
         shell: pwsh
         run: |
-          cd ESET-KeyGen
+          cd e2
           python -m venv venv
           .\venv\Scripts\pip install -r requirements.txt
           .\venv\Scripts\Activate.ps1
